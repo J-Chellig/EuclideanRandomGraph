@@ -34,10 +34,10 @@ public class EuclideanDrawing {
 		this.sizeofBox = boxSize;
 		
 		drawBoundingBox();
-		
+		drawAllEdges();
 		drawVertices();
 		
-		drawAllEdges();
+		
 	}
 	
 	
@@ -99,7 +99,7 @@ public class EuclideanDrawing {
 			for(Vertex u : mainGraph.getVertexList()) {
 				
 				drawEdges((VertexWithPosition) (u));
-				u.printNeighbours();
+
 			}
 			
 		}
