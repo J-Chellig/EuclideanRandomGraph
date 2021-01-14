@@ -1,5 +1,9 @@
 package graphStructure;
 
+/** The main data structure, generates an Array of vertices and then for every pair uses the addEdge()
+* method to connect the two if the pair statisfy the isConnected(u, v) method. The abstract method decides what type of Graph is used.  
+*
+*/
 public abstract class Graph {
 	
 	protected Vertex[] vertexList;
@@ -29,9 +33,11 @@ public void populateGraph() {
 			
 		}
 
-}	
+}	]
 	
 	public abstract boolean isConnected(Vertex v, Vertex u);
+	
+	
 	
 	public void addEdge(Vertex v, Vertex u) {
 		
