@@ -67,6 +67,8 @@ public class GuiMain extends Application {
 		
 		stage.setScene(scene);
 		stage.show();
+		stage.setResizable(false);
+		stage.setTitle("Euclidean Random Graph");
 }
 	
 	

@@ -58,7 +58,7 @@ public class EuclideanGraph extends Graph {
 				
 				
 				return 
-						Math.sqrt((v[0] - u[0])*(v[0] - u[0]) + (v[1] - u[1])*(v[1] - u[1]));
+						Math.sqrt(((v[0] - u[0])*(v[0] - u[0])) + ((v[1] - u[1])*(v[1] - u[1])));
 				}
 			
 			
